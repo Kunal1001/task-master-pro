@@ -1,0 +1,31 @@
+.home-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+.home-header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: inherit;
+    margin-bottom: 0px;
+}
+.home-header .role{
+    font-size: small;
+}
+.home-header button{
+    margin-left: 5px;
+    height: 30px;
+    width: 70px;
+    padding: auto;
+}
+.home-header .create-project-div{
+    margin-left: auto;
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}

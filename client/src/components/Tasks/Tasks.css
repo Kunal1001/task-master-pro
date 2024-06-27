@@ -1,0 +1,85 @@
+.task-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    width: 40%;
+}
+.green{
+    background-color: #96E9C6;
+}
+.orange{
+    background-color: #FFE9D0;
+}
+.task-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.task-head button{
+    margin-left: auto;
+    height: 30px;
+    width: 70px;
+    margin-bottom: 0px;
+}
+.task-head h2{
+    margin-bottom: 0px;
+}
+.task-head-admin h2{
+    margin-bottom: 0px;
+}
+.content{
+    font-size: x-large;
+    padding-bottom: 5px;
+    word-wrap:normal;
+}
+.info{
+    font-size: small;
+}
+.task-form-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content:space-between;
+    justify-content: center;
+}
+.task-form-container textarea{
+    height: 70px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large;
+    resize: none;
+}
+.task-form-container select{
+    border-radius: 10px;
+    border: none;
+    background-color:#BBE9FF;
+    width: 100px;
+
+}
+.task-form-container button{
+    height: inherit;
+    width: 100px;
+}
+
+
+
+.new-task{
+    animation-duration: 2s;
+    animation-name: slidein;
+    margin-bottom: 10px;
+}
+
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }

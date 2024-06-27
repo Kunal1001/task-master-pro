@@ -1,0 +1,50 @@
+.project-card{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #BBE9FF;
+    width: 250px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+.project-card .p{
+
+    margin-top: auto;
+
+}
+
+.project-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.project-header button{
+    height: 40px;
+    width: 100px;
+}
+.project-header .buttons{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
